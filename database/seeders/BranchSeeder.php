@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Branch;
+use Doctrine\DBAL\Query\QueryException;
 use Illuminate\Database\Seeder;
 
 class BranchSeeder extends Seeder
